@@ -6,11 +6,37 @@ body {
 }
 .hero-container {
     display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 8px 200px;
 }
 .hero-container, .footer {
     background-color: #1f2937;
 }
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header-right{
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+}
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
     
 }
