@@ -8,7 +8,6 @@ body {
 }
 .hero-container, .footer {
     background-color: #1f2937;
-    color: white;
 }
 .header {
     display: flex;
