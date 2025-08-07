@@ -80,3 +80,38 @@ button {
     font-size: 18px;
 }
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+
+
+}
+
+.info-pics {
+    display: flex;
+}
+
+.info-pics img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 3px #3882f6;
+}
+#pic-1 {
+    object-position: 20% 80%;
+}
+
