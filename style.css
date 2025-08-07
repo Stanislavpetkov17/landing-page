@@ -9,7 +9,8 @@ body {
     flex-direction: column;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 8px 200px;
+    padding: 10px 200px;
+    gap:10px;
 }
 .hero-container, .footer {
     background-color: #1f2937;
@@ -38,5 +39,44 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
+
+.hero {
+    display: flex;
+    gap: 120px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hero-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-image {
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.hero-image img {
+    height: 250px;
+    width: auto;
+    display: block;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0px;
+    padding: 8px 28px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+}
+
