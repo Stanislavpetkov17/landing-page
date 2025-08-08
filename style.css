@@ -160,3 +160,7 @@ button {
     font-weight: bold;
     font-size: 22px;
 }
+
+.cta-container, .cta-box, .cta-content {
+    display: flex;
+}
