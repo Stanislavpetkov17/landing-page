@@ -200,3 +200,11 @@ button {
     display: flex;
     flex-wrap:wrap;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f9faf8;
+    padding: 20px 0px;
+}
