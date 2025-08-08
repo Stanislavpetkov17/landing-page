@@ -164,3 +164,13 @@ button {
 .cta-container, .cta-box, .cta-content {
     display: flex;
 }
+
+.cta-container, .cta-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    
+}
