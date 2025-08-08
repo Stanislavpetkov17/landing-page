@@ -170,7 +170,33 @@ button {
     align-items: center;
 }
 
+.cta-container{
+    padding: 200px;
+}
+
 .cta-box {
     background-color: #3882f6;
-    
+    padding: 50px 150px;
+    border-radius: 10px;
+    color:#f9faf8;
+}
+
+.cta-content{
+    gap: 150px;
+}
+
+.cta-content button {
+ border: 2px solid white;
+ padding: 8px 36px;
+ align-self: center;
+}
+
+.cta-header{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-text{
+    display: flex;
+    flex-wrap:wrap;
 }
